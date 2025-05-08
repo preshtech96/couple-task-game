@@ -14,16 +14,14 @@ const Nav = () => {
   };
 
   return (
-    <div className="flex justify-around bg-pink-600 text-white p-5 items-center">
+    <div className="flex flex-col md:flex-row justify-between items-center bg-pink-600 text-white p-4 md:p-5 gap-4 text-center md:text-left">
       <div onClick={handleImageClick} className="cursor-pointer">
-        <img className="h-10 w-10" src={preshtech} alt="PreshTech" />
+        <img className="h-12 w-12 mx-auto md:mx-0" src={preshtech} alt="PreshTech" />
       </div>
-      <div>
-        <h1 className="text-[40px] font-bold">
-          Make it fun by completing each task !!!
-        </h1>
-      </div>
-      <div className="font-bold"></div>
+      <h1 className="text-xl md:text-3xl font-bold">
+        Make it fun by completing each task !!!
+      </h1>
+      <div className="font-bold hidden md:block"></div>
     </div>
   );
 };
