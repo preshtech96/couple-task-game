@@ -87,7 +87,7 @@ function Home() {
           </div>
 
           <div className="flex flex-wrap gap-4 px-5 justify-center">
-            {[...Array(64)].map((_, index) => (
+            {[...Array(18)].map((_, index) => (
               <button
                 key={index}
                 className="bg-blue-900 p-2 text-white font-bold rounded-[5px] cursor-pointer hover:bg-white hover:text-blue-900 border border-blue-900"
